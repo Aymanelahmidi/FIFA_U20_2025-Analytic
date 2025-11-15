@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT tournament (group+, knockout+)>
+<!ELEMENT group (match+)>
+<!ELEMENT knockout (match+)>
+<!ELEMENT match (home+, away+, score+, goals*)>
+<!ELEMENT home (#PCDATA)>
+<!ELEMENT away (#PCDATA)>
+<!ELEMENT score EMPTY>
+<!ELEMENT goals (goal+)>
+<!ELEMENT goal (#PCDATA)>
+
+
+<!ATTLIST tournament
+            name CDATA #REQUIRED
+            host CDATA #REQUIRED
+            year CDATA #REQUIRED
+            dates CDATA #REQUIRED
+            matches CDATA #REQUIRED
+            source CDATA #REQUIRED
+           >
+           
+<!ATTLIST group
+            name CDATA #REQUIRED
+           >        
+
+<!ATTLIST knockout
+            round CDATA #REQUIRED
+           >
+
+<!ATTLIST match
+            stage CDATA #REQUIRED
+            date CDATA #REQUIRED
+            city CDATA #REQUIRED
+            venue CDATA #IMPLIED
+           >
+           
+
+<!ATTLIST score
+            home CDATA #REQUIRED
+            away CDATA #REQUIRED
+           >
+           
+<!ATTLIST goal
+            team CDATA #REQUIRED
+            minute CDATA #REQUIRED
+            type CDATA #IMPLIED
+           >
+
+           

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="tournament">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="group" minOccurs="1" maxOccurs = "unbounded" type="groupType">
+                </xs:element>
+                <xs:element name="knockout" minOccurs="1" maxOccurs = "unbounded" type="knockout">
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required"></xs:attribute>
+            <xs:attribute name="host" type="xs:string" use="required"></xs:attribute>
+            <xs:attribute name="year" type="xs:gYear" use="required"></xs:attribute>
+            <xs:attribute name="dates" type="xs:string" use="required"></xs:attribute>
+            <xs:attribute name="matches" type="xs:int" use="required"></xs:attribute>
+            <xs:attribute name="source" type="xs:string" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="groupType">
+        <xs:sequence>
+            <xs:element name="match" minOccurs="1" maxOccurs = "unbounded" type="matchType">
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType> 
+    <xs:complexType name="knockout">
+        <xs:sequence>
+            <xs:element name="match" minOccurs="1" maxOccurs = "unbounded" type="matchType">
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="round" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="matchType">
+        <xs:sequence>
+            <xs:element name="home" type="homeType">  
+            </xs:element>
+            <xs:element name="away" type="awayType">        
+            </xs:element>
+            <xs:element name="score" type="scoreType">
+            </xs:element>
+            <xs:element name="goals" minOccurs="0" type="goalsType">
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="stage" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="date" type="xs:date" use="required"></xs:attribute>
+        <xs:attribute name="city" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="venue" type="xs:string" use="optional"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="homeType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string"/>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="awayType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string"/>
+        </xs:simpleContent>
+    </xs:complexType>  
+    <xs:complexType name="scoreType">
+        <xs:attribute name="home" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="away" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="goalsType">
+        <xs:sequence>
+            <xs:element name="goal" minOccurs="0" maxOccurs="unbounded" type="goalType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="goalType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="team" type="xs:string" use="required"/>
+                <xs:attribute name="minute" type="xs:string" use="required"/>
+                <xs:attribute name="type" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>   
+</xs:schema>

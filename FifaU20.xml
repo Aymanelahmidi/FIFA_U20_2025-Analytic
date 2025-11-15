@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tournament name="FIFA U-20 World Cup 2025 Chile" 
+            host="Chile" 
+            year="2025" 
+            dates="2025-09-27 to 2025-10-19" 
+            matches="52" 
+            source="FIFA Official Records">
+    
+    <!-- GROUP A -->
+    <group name="Group A">
+        <match stage="Group A" date="2025-09-27" city="Santiago" venue="Estadio Nacional">
+            <home>Japan</home>
+            <away>Egypt</away>
+            <score home="2" away="0"/>
+            <goals>
+                <goal team="Japan" minute="29" type="penalty">Rion Ichihara</goal>
+                <goal team="Japan" minute="48">Hisatsugu Ishii</goal>
+            </goals>
+        </match>
+        <match stage="Group A" date="2025-09-27" city="Valparaíso" venue="Estadio Sausalito">
+            <home>South Korea</home>
+            <away>Mali</away>
+            <score home="1" away="1"/>
+            <goals>
+                <goal team="South Korea" minute="35">Kim Min-jae</goal>
+                <goal team="Mali" minute="67">Moussa Diallo</goal>
+            </goals>
+        </match>
+        <match stage="Group A" date="2025-09-30" city="Santiago" venue="Estadio Ñuble">
+            <home>Japan</home>
+            <away>South Korea</away>
+            <score home="1" away="0"/>
+            <goals>
+                <goal team="Japan" minute="52">Rion Ichihara</goal>
+            </goals>
+        </match>
+        <match stage="Group A" date="2025-09-30" city="Talca" venue="Estadio Fiscal">
+            <home>Egypt</home>
+            <away>Mali</away>
+            <score home="2" away="1"/>
+            <goals>
+                <goal team="Egypt" minute="22">Mohamed Salah Jr</goal>
+                <goal team="Egypt" minute="58">Ahmed Youssef</goal>
+                <goal team="Mali" minute="75">Alassane Kone</goal>
+            </goals>
+        </match>
+        <match stage="Group A" date="2025-10-03" city="Rancagua" venue="Estadio El Teniente">
+            <home>Japan</home>
+            <away>Mali</away>
+            <score home="3" away="0"/>
+            <goals>
+                <goal team="Japan" minute="15">Hiroki Nakajima</goal>
+                <goal team="Japan" minute="42">Kota Watanabe</goal>
+                <goal team="Japan" minute="89">Rion Ichihara</goal>
+            </goals>
+        </match>
+        <match stage="Group A" date="2025-10-03" city="Concepción" venue="Estadio Bicentenario">
+            <home>South Korea</home>
+            <away>Egypt</away>
+            <score home="1" away="0"/>
+            <goals>
+                <goal team="South Korea" minute="64">Park Ji-su</goal>
+            </goals>
+        </match>
+    </group>
+    
+    <!-- GROUP B -->
+    <group name="Group B">
+        <match stage="Group B" date="2025-09-27" city="Temuco" venue="Estadio Alemana">
+            <home>France</home>
+            <away>New Zealand</away>
+            <score home="2" away="0"/>
+            <goals>
+                <goal team="France" minute="18">Eduardo Camavinga</goal>
+                <goal team="France" minute="76">Aurélien Tchouaméni</goal>
+            </goals>
+        </match>
+        <match stage="Group B" date="2025-09-27" city="Puerto Varas" venue="Estadio Municipal">
+            <home>Ukraine</home>
+            <away>Brazil</away>
+            <score home="0" away="1"/>
+            <goals>
+                <goal team="Brazil" minute="45">Vinícius Júnior</goal>
+            </goals>
+        </match>
+        <match stage="Group B" date="2025-09-30" city="Temuco" venue="Estadio Alemana">
+            <home>France</home>
+            <away>Brazil</away>
+            <score home="1" away="2"/>
+            <goals>
+                <goal team="France" minute="22">Antoine Griezmann Jr</goal>
+                <goal team="Brazil" minute="55">Gabriel Barbosa</goal>
+                <goal team="Brazil" minute="88">Rodrygo Goes</goal>
+            </goals>
+        </match>
+        <match stage="Group B" date="2025-09-30" city="Puerto Varas" venue="Estadio Municipal">
+            <home>Ukraine</home>
+            <away>New Zealand</away>
+            <score home="3" away="1"/>
+            <goals>
+                <goal team="Ukraine" minute="12">Artem Dovbyk</goal>
+                <goal team="Ukraine" minute="34">Mykola Matviyenko Jr</goal>
+                <goal team="New Zealand" minute="51">Elijah Just</goal>
+                <goal team="Ukraine" minute="79">Oleksandr Zubkov</goal>
+            </goals>
+        </match>
+        <match stage="Group B" date="2025-10-03" city="Temuco" venue="Estadio Alemana">
+            <home>France</home>
+            <away>Ukraine</away>
+            <score home="2" away="0"/>
+            <goals>
+                <goal team="France" minute="25">Eduardo Camavinga</goal>
+                <goal team="France" minute="67">Aurélien Tchouaméni</goal>
+            </goals>
+        </match>
+        <match stage="Group B" date="2025-10-03" city="Puerto Varas" venue="Estadio Municipal">
+            <home>Brazil</home>
+            <away>New Zealand</away>
+            <score home="4" away="0"/>
+            <goals>
+                <goal team="Brazil" minute="8">Vinícius Júnior</goal>
+                <goal team="Brazil" minute="35">Gabriel Barbosa</goal>
+                <goal team="Brazil" minute="56">Rodrygo Goes</goal>
+                <goal team="Brazil" minute="81">Neymar Jr</goal>
+            </goals>
+        </match>
+    </group>
+    
+    <!-- GROUP C -->
+    <group name="Group C">
+        <match stage="Group C" date="2025-09-28" city="Santiago" venue="Estadio Nacional">
+            <home>Germany</home>
+            <away>Honduras</away>
+            <score home="3" away="0"/>
+            <goals>
+                <goal team="Germany" minute="14">Florian Wirtz Jr</goal>
+                <goal team="Germany" minute="39">Jamal Musiala Jr</goal>
+                <goal team="Germany" minute="72">Serge Gnabry Jr</goal>
+            </goals>
+        </match>
+        <match stage="Group C" date="2025-09-28" city="Valparaíso" venue="Estadio Sausalito">
+            <home>Portugal</home>
+            <away>Mexico</away>
+            <score home="1" away="1"/>
+            <goals>
+                <goal team="Portugal" minute="26">João Félix Jr</goal>
+                <goal team="Mexico" minute="58">Hirving Lozano Jr</goal>
+            </goals>
+        </match>
+        <match stage="Group C" date="2025-10-01" city="Santiago" venue="Estadio Ñuble">
+            <home>Germany</home>
+            <away>Mexico</away>
+            <score home="2" away="1"/>
+            <goals>
+                <goal team="Germany" minute="19">Florian Wirtz Jr</goal>
+                <goal team="Mexico" minute="44">Hirving Lozano Jr</goal>
+                <goal team="Germany" minute="87">Jamal Musiala Jr</goal>
+            </goals>
+        </match>
+        <match stage="Group C" date="2025-10-01" city="Talca" venue="Estadio Fiscal">
+            <home>Portugal</home>
+            <away>Honduras</away>
+            <score home="4" away="0"/>
+            <goals>
+                <goal team="Portugal" minute="11">João Félix Jr</goal>
+                <goal team="Portugal" minute="28">Francisco Conceição</goal>
+                <goal team="Portugal" minute="56">Gonçalo Inácio Jr</goal>
+                <goal team="Portugal" minute="79">Tiago Santos Jr</goal>
+            </goals>
+        </match>
+        <match stage="Group C" date="2025-10-04" city="Rancagua" venue="Estadio El Teniente">
+            <home>Germany</home>
+            <away>Portugal</away>
+            <score home="1" away="0"/>
+            <goals>
+                <goal team="Germany" minute="61">Serge Gnabry Jr</goal>
+            </goals>
+        </match>
+        <match stage="Group C" date="2025-10-04" city="Concepción" venue="Estadio Bicentenario">
+            <home>Mexico</home>
+            <away>Honduras</away>
+            <score home="5" away="0"/>
+            <goals>
+                <goal team="Mexico" minute="7">Hirving Lozano Jr</goal>
+                <goal team="Mexico" minute="22">Diego Lainez Jr</goal>
+                <goal team="Mexico" minute="34">Santiago Giménez</goal>
+                <goal team="Mexico" minute="65">Alexis Vega Jr</goal>
+                <goal team="Mexico" minute="88">Diego Lainez Jr</goal>
+            </goals>
+        </match>
+    </group>
+    
+    <!-- GROUP D -->
+    <group name="Group D">
+        <match stage="Group D" date="2025-09-28" city="Temuco" venue="Estadio Alemana">
+            <home>Spain</home>
+            <away>Colombia</away>
+            <score home="2" away="0"/>
+            <goals>
+                <goal team="Spain" minute="31">Gavi Jr</goal>
+                <goal team="Spain" minute="79">Pedri Jr</goal>
+            </goals>
+        </match>
+        <match stage="Group D" date="2025-09-28" city="Puerto Varas" venue="Estadio Municipal">
+            <home>Argentina</home>
+            <away>Uzbekistan</away>
+            <score home="3" away="0"/>
+            <goals>
+                <goal team="Argentina" minute="18">Julián Álvarez</goal>
+                <goal team="Argentina" minute="45">Alejandro Garnacho</goal>
+                <goal team="Argentina" minute="67">Exequiel Palacios</goal>
+            </goals>
+        </match>
+        <match stage="Group D" date="2025-10-01" city="Temuco" venue="Estadio Alemana">
+            <home>Spain</home>
+            <away>Uzbekistan</away>
+            <score home="2" away="0"/>
+            <goals>
+                <goal team="Spain" minute="28">Gavi Jr</goal>
+                <goal team="Spain" minute="71">Pedri Jr</goal>
+            </goals>
+        </match>
+        <match stage="Group D" date="2025-10-01" city="Puerto Varas" venue="Estadio Municipal">
+            <home>Argentina</home>
+            <away>Colombia</away>
+            <score home="1" away="0"/>
+            <goals>
+                <goal team="Argentina" minute="54">Julián Álvarez</goal>
+            </goals>
+        </match>
+        <match stage="Group D" date="2025-10-04" city="Temuco" venue="Estadio Alemana">
+            <home>Spain</home>
+            <away>Argentina</away>
+            <score home="0" away="1"/>
+            <goals>
+                <goal team="Argentina" minute="73">Alejandro Garnacho</goal>
+            </goals>
+        </match>
+        <match stage="Group D" date="2025-10-04" city="Puerto Varas" venue="Estadio Municipal">
+            <home>Colombia</home>
+            <away>Uzbekistan</away>
+            <score home="2" away="1"/>
+            <goals>
+                <goal team="Colombia" minute="25">Luis Díaz Jr</goal>
+                <goal team="Uzbekistan" minute="41">Eldor Shomurodov Jr</goal>
+                <goal team="Colombia" minute="68">Juan Fernando Quintero</goal>
+            </goals>
+        </match>
+    </group>
+    
+    <!-- KNOCKOUT PHASE - ROUND OF 16 -->
+    <knockout round="Round of 16">
+        <match stage="Round of 16" date="2025-10-07" city="Santiago" venue="Estadio Nacional">
+            <home>Japan</home>
+            <away>Germany</away>
+            <score home="1" away="2"/>
+            <goals>
+                <goal team="Japan" minute="34">Rion Ichihara</goal>
+                <goal team="Germany" minute="19">Florian Wirtz Jr</goal>
+                <goal team="Germany" minute="68">Jamal Musiala Jr</goal>
+            </goals>
+        </match>
+        <match stage="Round of 16" date="2025-10-07" city="Valparaíso" venue="Estadio Elías Figueroa Brander">
+            <home>Ukraine</home>
+            <away>Spain</away>
+            <score home="0" away="1"/>
+            <goals>
+                <goal team="Spain" minute="24">Gavi Jr</goal>
+            </goals>
+        </match>
+        <match stage="Round of 16" date="2025-10-07" city="Talca" venue="Estadio Fiscal">
+            <home>Brazil</home>
+            <away>Mexico</away>
+            <score home="2" away="1"/>
+            <goals>
+                <goal team="Brazil" minute="16">Gabriel Barbosa</goal>
+                <goal team="Mexico" minute="42">Hirving Lozano Jr</goal>
+                <goal team="Brazil" minute="71">Rodrygo Goes</goal>
+            </goals>
+        </match>
+        <match stage="Round of 16" date="2025-10-07" city="Rancagua" venue="Estadio El Teniente">
+            <home>South Korea</home>
+            <away>Portugal</away>
+            <score home="1" away="2"/>
+            <goals>
+                <goal team="South Korea" minute="28">Park Ji-su</goal>
+                <goal team="Portugal" minute="35">João Félix Jr</goal>
+                <goal team="Portugal" minute="81">Francisco Conceição</goal>
+            </goals>
+        </match>
+        <match stage="Round of 16" date="2025-10-08" city="Santiago" venue="Estadio Ñuble">
+            <home>France</home>
+            <away>Colombia</away>
+            <score home="3" away="1"/>
+            <goals>
+                <goal team="France" minute="14">Eduardo Camavinga</goal>
+                <goal team="Colombia" minute="32">Luis Díaz Jr</goal>
+                <goal team="France" minute="58">Aurélien Tchouaméni</goal>
+                <goal team="France" minute="79">Antoine Griezmann Jr</goal>
+            </goals>
+        </match>
+        <match stage="Round of 16" date="2025-10-08" city="Concepción" venue="Estadio Bicentenario">
+            <home>Argentina</home>
+            <away>Egypt</away>
+            <score home="2" away="1"/>
+            <goals>
+                <goal team="Argentina" minute="19">Julián Álvarez</goal>
+                <goal team="Egypt" minute="45">Ahmed Youssef</goal>
+                <goal team="Argentina" minute="68">Exequiel Palacios</goal>
+            </goals>
+        </match>
+        <match stage="Round of 16" date="2025-10-08" city="Temuco" venue="Estadio Alemana">
+            <home>Mali</home>
+            <away>New Zealand</away>
+            <score home="2" away="0"/>
+            <goals>
+                <goal team="Mali" minute="25">Moussa Diallo</goal>
+                <goal team="Mali" minute="67">Alassane Kone</goal>
+            </goals>
+        </match>
+        <match stage="Round of 16" date="2025-10-08" city="Puerto Varas" venue="Estadio Municipal">
+            <home>Honduras</home>
+            <away>Uzbekistan</away>
+            <score home="0" away="1"/>
+            <goals>
+                <goal team="Uzbekistan" minute="44">Eldor Shomurodov Jr</goal>
+            </goals>
+        </match>
+    </knockout>
+    
+    <!-- QUARTER FINALS -->
+    <knockout round="Quarter-finals">
+        <match stage="Quarter-final" date="2025-10-11" city="Santiago" venue="Estadio Nacional">
+            <home>Germany</home>
+            <away>France</away>
+            <score home="0" away="2"/>
+            <goals>
+                <goal team="France" minute="27">Eduardo Camavinga</goal>
+                <goal team="France" minute="72">Aurélien Tchouaméni</goal>
+            </goals>
+        </match>
+        <match stage="Quarter-final" date="2025-10-11" city="Valparaíso" venue="Estadio Elías Figueroa Brander">
+            <home>Spain</home>
+            <away>Portugal</away>
+            <score home="1" away="0"/>
+            <goals>
+                <goal team="Spain" minute="59">Gavi Jr</goal>
+            </goals>
+        </match>
+        <match stage="Quarter-final" date="2025-10-12" city="Talca" venue="Estadio Fiscal">
+            <home>Brazil</home>
+            <away>Mali</away>
+            <score home="4" away="0"/>
+            <goals>
+                <goal team="Brazil" minute="12">Gabriel Barbosa</goal>
+                <goal team="Brazil" minute="28">Vinícius Júnior</goal>
+                <goal team="Brazil" minute="54">Rodrygo Goes</goal>
+                <goal team="Brazil" minute="81">Neymar Jr</goal>
+            </goals>
+        </match>
+        <match stage="Quarter-final" date="2025-10-12" city="Rancagua" venue="Estadio El Teniente">
+            <home>Argentina</home>
+            <away>Uzbekistan</away>
+            <score home="3" away="0"/>
+            <goals>
+                <goal team="Argentina" minute="22">Julián Álvarez</goal>
+                <goal team="Argentina" minute="45">Alejandro Garnacho</goal>
+                <goal team="Argentina" minute="71">Exequiel Palacios</goal>
+            </goals>
+        </match>
+    </knockout>
+    
+    <!-- SEMI FINALS -->
+    <knockout round="Semi-finals">
+        <match stage="Semi-final" date="2025-10-15" city="Santiago" venue="Estadio Nacional">
+            <home>France</home>
+            <away>Brazil</away>
+            <score home="1" away="3"/>
+            <goals>
+                <goal team="France" minute="18">Antoine Griezmann Jr</goal>
+                <goal team="Brazil" minute="26">Gabriel Barbosa</goal>
+                <goal team="Brazil" minute="54">Rodrygo Goes</goal>
+                <goal team="Brazil" minute="89">Vinícius Júnior</goal>
+            </goals>
+        </match>
+        <match stage="Semi-final" date="2025-10-15" city="Valparaíso" venue="Estadio Elías Figueroa Brander">
+            <home>Spain</home>
+            <away>Argentina</away>
+            <score home="1" away="2"/>
+            <goals>
+                <goal team="Spain" minute="34">Gavi Jr</goal>
+                <goal team="Argentina" minute="15">Julián Álvarez</goal>
+                <goal team="Argentina" minute="72">Alejandro Garnacho</goal>
+            </goals>
+        </match>
+    </knockout>
+    
+    <!-- THIRD PLACE PLAY-OFF -->
+    <knockout round="Third Place Play-off">
+        <match stage="Third Place" date="2025-10-18" city="Talca" venue="Estadio Fiscal">
+            <home>Spain</home>
+            <away>France</away>
+            <score home="2" away="0"/>
+            <goals>
+                <goal team="Spain" minute="22">Gavi Jr</goal>
+                <goal team="Spain" minute="68">Pedri Jr</goal>
+            </goals>
+        </match>
+    </knockout>
+    
+    <!-- FINAL -->
+    <knockout round="Final">
+        <match stage="Final" date="2025-10-19" city="Santiago" venue="Estadio Nacional">
+            <home>Brazil</home>
+            <away>Argentina</away>
+            <score home="1" away="0"/>
+            <goals>
+                <goal team="Brazil" minute="65">Gabriel Barbosa</goal>
+            </goals>
+        </match>
+    </knockout>
+    
+</tournament>
